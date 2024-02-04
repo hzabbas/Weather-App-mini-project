@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="Saerch__Ipute">
             <input type="text" placeholder="Search">
-        </div>
-        <div class="Search__Icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="Search__Icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
         <div class="Data__Weather">
-            <div class="Load_title"></div>
+            <div class="Load_title">Loading ...</div>
             <div class="City__title">Weather In shiraz</div>
             <div class="Weather_status">
-                <div class="Icon">
-                    <i class="fa-duotone fa-clouds"></i>
+                <div class="line">
+                    <div></div>
                 </div>
-                <div class="Weather__title-status">sunny</div>
-                <div class="Humidity">36%</div>
-                <div class="wind__speed">26 Km/h</div>
+                <div class="Temp">9
+                    <i class="fa-duotone fa-temperature-high"></i>
+                </div>
+                <div class="Icon__weather">
+                    <i class="fa-duotone fa-clouds"></i>
+                    <div class="Weather__title-status">sunny</div>
+                </div>
+                <div class="Humidity">Humidity : 36%</div>
+                <div class="wind__speed">Wind Speed : 26 Km/h</div>
             </div>
         </div>
     </div>

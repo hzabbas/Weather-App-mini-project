@@ -1,0 +1,92 @@
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+input {
+    border: none;
+    outline: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 400px;
+    border: 1px solid #c2bdbd;
+    padding: 30px 30px 10px 30px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(5px);
+}
+.Saerch__Ipute{
+    display: flex;
+    justify-content: space-around;
+}
+.Saerch__Ipute input{
+    background-color: rgba(0, 0, 0, 0.35);
+    width:80%;
+    padding :10px 15px;
+    border-radius: 30px;
+}
+.Search__Icon {
+    background-color: #c2bdbd;
+    padding: 10px 15px;
+    border-radius: 100%;
+
+}
+.Data__Weather{
+    margin:30px 5px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Load_title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.City__title{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Weather_status{
+    margin-top: 20px;
+}
+.line{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.line div{
+    border: .5px solid #bab5b5;
+    width: 300px;
+}
+.Temp {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Weather_status .Icon__weather {
+    display: flex;
+}
+.fa-clouds{
+    font-size: 2rem;
+}
+.Weather_status .Icon__weather .Weather__title-status {
+    font-weight: bold;
+    color: #494646;
+    padding-left: 10px;
+}
+.Humidity {
+    font-size: 1.2rem;
+    font-weight: 800px;
+    margin: 10px 0px 0px  0px;
+}
+.wind__speed{
+    font-size: 1.2rem;
+    font-weight: 800px;
+}
