@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color: #fff;
 }
 input {
     border: none;
@@ -13,14 +14,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("background/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
 }
 .container {
     width: 400px;
-    border: 1px solid #c2bdbd;
+    border: .2px solid #c2bdbd;
     padding: 30px 30px 10px 30px;
     border-radius: 40px;
-    background-color: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
 }
 .Saerch__Ipute{
     display: flex;
