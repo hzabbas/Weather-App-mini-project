@@ -52,6 +52,7 @@ body {
 .Load_title {
     font-size: 1.3rem;
     font-weight: bold;
+    display: inline;
 }
 .City__title{
     font-size: 1.3rem;
@@ -59,6 +60,7 @@ body {
 }
 .Weather_status{
     margin-top: 20px;
+    display: none;
 }
 .line{
     
@@ -71,9 +73,16 @@ body {
     width: 300px;
 }
 .Temp {
+    display: flex;
+    align-items: baseline;
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 10px;
+}
+.Temp__status{
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-right: 20px;
 }
 .Weather_status .Icon__weather {
     display: flex;
@@ -83,7 +92,7 @@ body {
 }
 .Weather_status .Icon__weather .Weather__title-status {
     font-weight: bold;
-    color: #494646;
+    color: #efe7e7;
     padding-left: 10px;
 }
 .Humidity {
